@@ -64,7 +64,7 @@ plt.yticks(rotation=0)
 plt.tight_layout()
 
 # Guardar la imagen en la carpeta del proyecto
-archivo_imagen = "matriz_similitud_semana9.png"
+archivo_imagen = "matriz_similitud.png"
 plt.savefig(archivo_imagen, dpi=300)
 print(f"\n¡Análisis completado! La matriz se ha guardado como '{archivo_imagen}'")
 

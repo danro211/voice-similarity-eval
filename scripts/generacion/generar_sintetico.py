@@ -13,7 +13,7 @@ torch.load = patched_load
 print("Cargando modelo XTTS v2 en GPU...")
 tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2", gpu=True)
 
-texto_a_generar = "Este es un audio de prueba generado mediante clonación de voz para el análisis de similitud en el laboratorio."
+texto_a_generar = "El Barcelona es el mejor equipo del mundo, sé que algún día serán campeones de Europa."
 
 # Busca TODOS los archivos .wav en la carpeta
 archivos_wav = glob.glob("data/raw/*.wav")
