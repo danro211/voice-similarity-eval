@@ -1,0 +1,23 @@
+# Solo publicar codigo y documentacion del estudio familiar
+*
+!*/
+!/.gitignore
+!/definir_protocolo.py
+!/comparar_embeddings_familia.py
+!/extraer_caracteristicas_familia.py
+!/comparar_acustica_familia.py
+!/integrar_resultados_familia.py
+!/auditar_integracion_paso7.py
+!/visualizations/README.md
+!/visualizations/componentes/__init__.py
+!/visualizations/componentes/estilo.py
+!/visualizations/componentes/graficos_resumen.py
+!/visualizations/componentes/validacion_resumen.py
+!/visualizations/componentes/ecapa/__init__.py
+!/visualizations/componentes/ecapa/graficos.py
+!/visualizations/componentes/ecapa/validacion.py
+!/visualizations/generadores/generar_resumen_familiar.py
+!/visualizations/generadores/generar_similitud_ecapa.py
+!/visualizations/generadores/generar_comparacion_acustica.py
+!/visualizations/tests/test_resumen_familiar.py
+!/visualizations/tests/test_similitud_ecapa.py

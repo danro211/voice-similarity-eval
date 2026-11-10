@@ -235,3 +235,31 @@ Contact: Marvin Coto - marvin.coto@ucr.ac.cr
 This project aims to **measure it rigorously, transparently, and responsibly**.
 
 * or create **starter GitHub issues** for student contributors.
+
+---
+
+## Estudio de similitud vocal entre hermanos (IE-0499)
+
+Esta extension investiga la similitud vocal natural entre hermanos mediante
+representaciones de hablante ECAPA-TDNN y caracteristicas acusticas.
+Se comparan voces naturales, no voces clonadas.
+
+**Procesamiento:** `data/family_study/` contiene el protocolo, las
+comparaciones acusticas y de embeddings, la integracion y la auditoria.
+La extraccion de embeddings se encuentra en
+`scripts/evaluacion/extraer_embeddings_familia.py`.
+
+**Visualizaciones:** los generadores, componentes compartidos y pruebas
+estan organizados en `data/family_study/visualizations/`.
+Consultar su [documentacion](data/family_study/visualizations/README.md).
+
+**Privacidad:** esta ampliacion incorpora codigo, pero no nuevas
+grabaciones familiares, identificadores de participantes, embeddings ni
+resultados individuales. El repositorio original ya contiene archivos
+WAV de trabajos anteriores en `data/raw/`; no corresponden a este
+conjunto de datos familiar. La reproduccion completa requiere acceso
+autorizado a los datos y a las dependencias del proyecto.
+
+**Verificaciones realizadas:** seis pruebas automatizadas con datos
+sinteticos y tres verificaciones de generadores con resultados reales.
+Estas pruebas no representan una reproduccion integral desde cero.
